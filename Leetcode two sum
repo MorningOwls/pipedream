@@ -1,0 +1,5 @@
+num = [1, 4, 2, 5, 7, 2, 10, 8]
+target = 5
+for i in range(len(num) - 1):
+    if ((num[i] + num[i+1]) == target):
+        return [i, i+1]
